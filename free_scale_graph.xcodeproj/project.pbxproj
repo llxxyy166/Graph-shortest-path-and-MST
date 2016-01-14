@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39177B5D1BF806FD00E2E654 /* Algorithm.c in Sources */ = {isa = PBXBuildFile; fileRef = 39177B5B1BF806FD00E2E654 /* Algorithm.c */; };
+		3986913F1BE6F18A007A7A4D /* PrioQ.c in Sources */ = {isa = PBXBuildFile; fileRef = 3986913D1BE6F18A007A7A4D /* PrioQ.c */; };
 		399863671BE3D7CF00BFC16C /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 399863661BE3D7CF00BFC16C /* main.c */; };
+		3998636F1BE3D80B00BFC16C /* Graph.c in Sources */ = {isa = PBXBuildFile; fileRef = 3998636D1BE3D80B00BFC16C /* Graph.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		39177B5B1BF806FD00E2E654 /* Algorithm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Algorithm.c; sourceTree = "<group>"; };
+		39177B5C1BF806FD00E2E654 /* Algorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Algorithm.h; sourceTree = "<group>"; };
+		3986913D1BE6F18A007A7A4D /* PrioQ.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PrioQ.c; sourceTree = "<group>"; };
+		3986913E1BE6F18A007A7A4D /* PrioQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrioQ.h; sourceTree = "<group>"; };
 		399863631BE3D7CF00BFC16C /* free_scale_graph */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = free_scale_graph; sourceTree = BUILT_PRODUCTS_DIR; };
 		399863661BE3D7CF00BFC16C /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		3998636D1BE3D80B00BFC16C /* Graph.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Graph.c; sourceTree = "<group>"; };
+		3998636E1BE3D80B00BFC16C /* Graph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Graph.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +66,13 @@
 		399863651BE3D7CF00BFC16C /* free_scale_graph */ = {
 			isa = PBXGroup;
 			children = (
+				3986913D1BE6F18A007A7A4D /* PrioQ.c */,
+				3986913E1BE6F18A007A7A4D /* PrioQ.h */,
 				399863661BE3D7CF00BFC16C /* main.c */,
+				3998636D1BE3D80B00BFC16C /* Graph.c */,
+				3998636E1BE3D80B00BFC16C /* Graph.h */,
+				39177B5B1BF806FD00E2E654 /* Algorithm.c */,
+				39177B5C1BF806FD00E2E654 /* Algorithm.h */,
 			);
 			path = free_scale_graph;
 			sourceTree = "<group>";
@@ -118,7 +133,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3986913F1BE6F18A007A7A4D /* PrioQ.c in Sources */,
+				3998636F1BE3D80B00BFC16C /* Graph.c in Sources */,
 				399863671BE3D7CF00BFC16C /* main.c in Sources */,
+				39177B5D1BF806FD00E2E654 /* Algorithm.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +255,7 @@
 				3998636C1BE3D7CF00BFC16C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
